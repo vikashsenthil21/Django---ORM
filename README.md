@@ -29,7 +29,7 @@ from .models import Studentdetail,StudentdetailAdmin
 
 
 admin.site.register(Studentdetail,StudentdetailAdmin)
-
+```
 ```
 from django.db import models
 
