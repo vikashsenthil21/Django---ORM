@@ -22,6 +22,15 @@ Push into github
 
 ## PROGRAM
 ```
+admin.py:
+
+from django.contrib import admin
+from .models import Studentdetail,StudentdetailAdmin
+
+
+admin.site.register(Studentdetail,StudentdetailAdmin)
+
+```
 from django.db import models
 
 # Create your models here. 
